@@ -15,19 +15,19 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Empezamos el desarollo de la pagina de pinturas
+          Empezamos el desarrollo de la página de pinturas
           
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Pinturas &rarr;</h3>
-            <p>La pintura es el arte de la representación gráfica utilizando pigmentos mezclados con otras sustancias aglutinantes orgánicas o sintéticas. Aqui encontraras todo los detalles de la autora</p>
+            <p>La pintura es el arte de la representación gráfica utilizando pigmentos mezclados con otras sustancias aglutinantes orgánicas o sintéticas. Aquí encontraras todo los detalles de la autora.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Acerca de  &rarr;</h3>
-            <p>Toda la informacion referida a la autora de las pinturas mostradas en nuestro sistio</p>
+            <p>Toda la informacion referida a la autora de las pinturas mostradas en nuestro sitio web.</p>
           </a>
 
           <a
@@ -35,7 +35,7 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Galeria &rarr;</h3>
-            <p>La pintura conjuga elementos de la representación plástica como las formas, los colores, las texturas, la armonía, el equilibrio, la perspectiva, la luz y el movimiento. Aquí descubriras las mejores pinturas creadas por la autora en una galeria de fotos</p>
+            <p>La pintura conjuga elementos de la representación plástica como las formas, los colores, las texturas, la armonía, el equilibrio, la perspectiva, la luz y el movimiento. Aquí descubriras las mejores pinturas creadas por la autora en una galería de fotos.</p>
           </a>
 
           <a
@@ -56,8 +56,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/team.svg" alt="DevTeam Logo" className={styles.logo} />
+          Powered by{' '} 
+          <img src="/team.svg" alt="DevTeam Logo" className={styles.logo} style={{paddingRight: '5px'}}/>
+          2020
         </a>
       </footer>
     </div>
