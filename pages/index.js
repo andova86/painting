@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,37 +17,67 @@ export default function Home() {
 
         <p className={styles.description}>
           Empezamos el desarrollo de la página de pinturas
-          
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Pinturas &rarr;</h3>
-            <p>La pintura es el arte de la representación gráfica utilizando pigmentos mezclados con otras sustancias aglutinantes orgánicas o sintéticas. Aquí encontraras todo los detalles de la autora.</p>
-          </a>
+       
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Acerca de  &rarr;</h3>
-            <p>Toda la informacion referida a la autora de las pinturas mostradas en nuestro sitio web.</p>
+        
+
+          <a
+            href="https://github.com/vercel/next.js/tree/master/examples"
+            className={styles.card}
+          >
+            <h3>Palmeras &rarr;</h3>
+            <Image
+              src="/pint.jpg"
+              alt="Picture of the author"
+              width={500}
+              height={500}
+            />
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Galeria &rarr;</h3>
-            <p>La pintura conjuga elementos de la representación plástica como las formas, los colores, las texturas, la armonía, el equilibrio, la perspectiva, la luz y el movimiento. Aquí descubriras las mejores pinturas creadas por la autora en una galería de fotos.</p>
+            <h3>Sol y Mar &rarr;</h3>
+            <Image
+              src="/pint2.jpg"
+              alt="Picture of the author"
+              width={500}
+              height={500}
+            />
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Contacto &rarr;</h3>
-            <p>
-              Mediante este enlace podraas contactar con la autora de las pinturas.
-            </p>
+            <h3>Arbol solitario &rarr;</h3>
+            <Image
+              src="/pint3.jpg"
+              alt="Picture of the author"
+              width={500}
+              height={500}
+            />
           </a>
+
+          <a
+            href="https://github.com/vercel/next.js/tree/master/examples"
+            className={styles.card}
+          >
+            <h3>Reflejos en el Mar &rarr;</h3>
+            <Image
+              src="/pint4.jpg"
+              alt="Picture of the author"
+              width={500}
+              height={500}
+            />
+          </a>
+
+      
+
         </div>
       </main>
 
@@ -56,11 +87,16 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '} 
-          <img src="/team.svg" alt="DevTeam Logo" className={styles.logo} style={{paddingRight: '5px'}}/>
+          Powered by{" "}
+          <img
+            src="/team.svg"
+            alt="DevTeam Logo"
+            className={styles.logo}
+            style={{ paddingRight: "5px" }}
+          />
           2020
         </a>
       </footer>
     </div>
-  )
+  );
 }
