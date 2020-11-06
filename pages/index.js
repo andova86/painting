@@ -30,7 +30,7 @@ export default function Home() {
           >
             <h3>Palmeras &rarr;</h3>
             <Image
-              src="/pint.jpg"
+              src="/images/pint.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -43,7 +43,7 @@ export default function Home() {
           >
             <h3>Sol y Mar &rarr;</h3>
             <Image
-              src="/pint2.jpg"
+              src="/images/pint2.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -56,7 +56,7 @@ export default function Home() {
           >
             <h3>Arbol solitario &rarr;</h3>
             <Image
-              src="/pint3.jpg"
+              src="/images/pint3.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -69,7 +69,7 @@ export default function Home() {
           >
             <h3>Reflejos en el Mar &rarr;</h3>
             <Image
-              src="/pint4.jpg"
+              src="/images/pint4.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -83,13 +83,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="$"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{" "}
           <img
-            src="/team.svg"
+            src="/images/team.svg"
             alt="DevTeam Logo"
             className={styles.logo}
             style={{ paddingRight: "5px" }}
