@@ -20,17 +20,13 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-       
-
-        
-
-          <a
+            <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
             <h3>Palmeras &rarr;</h3>
             <Image
-              src="/images/pint.jpg"
+              src="/pint.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
